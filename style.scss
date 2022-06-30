@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+$primary: teal;
+$light-grey: #f1f1f1;
+$branco: white;
+$preto: #333;
+
+* {
+  box-sizing: border-box;
+  font-family: Space Mono, sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: $light-grey;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 1rem;
+}
+
+p {
+  font-style: italic;
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 2rem 0;
+}
+
+.header {
+  background-color: $preto;
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 5px solid $primary;
+
+  &__titulo {
+    width: 1024px;
+    max-width: 1024px;
+    color: $branco;
+    margin-bottom: 1rem;
+  }
+}
+
+.objetivo {
+  margin-bottom: 4rem;
+}
+
+.auto-avaliacao {
+  margin-bottom: 4rem;
+
+  &__cols {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.feedbacks {
+  margin-bottom: 4rem;
+
+  &__cols {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.momento {
+  margin-bottom: 4rem;
+}
+
+.acoes {
+  margin-bottom: 4rem;
+
+  &__passos {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 4rem;
+  }
+
+  &__planos {
+    margin-bottom: 2rem;
+  }
+
+  &__plano {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 3fr 1fr 1fr;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(207, 207, 207);
+    margin-bottom: 1rem;
+  }
+}

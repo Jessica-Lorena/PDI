@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Space Mono, sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #f1f1f1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 1rem;
+}
+
+p {
+  font-style: italic;
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 2rem 0;
+}
+
+.header {
+  background-color: #333;
+  width: 100%;
+  height: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-bottom: 5px solid teal;
+}
+
+.header__titulo {
+  width: 1024px;
+  max-width: 1024px;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.objetivo {
+  margin-bottom: 4rem;
+}
+
+.auto-avaliacao {
+  margin-bottom: 4rem;
+}
+
+.auto-avaliacao__cols {
+  display: -ms-grid;
+  display: grid;
+  gap: 1rem;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.feedbacks {
+  margin-bottom: 4rem;
+}
+
+.feedbacks__cols {
+  display: -ms-grid;
+  display: grid;
+  gap: 1rem;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.momento {
+  margin-bottom: 4rem;
+}
+
+.acoes {
+  margin-bottom: 4rem;
+}
+
+.acoes__passos {
+  display: -ms-grid;
+  display: grid;
+  gap: 1rem;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 4rem;
+}
+
+.acoes__planos {
+  margin-bottom: 2rem;
+}
+
+.acoes__plano {
+  display: -ms-grid;
+  display: grid;
+  gap: 1rem;
+  -ms-grid-columns: 3fr 1fr 1fr;
+      grid-template-columns: 3fr 1fr 1fr;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #cfcfcf;
+  margin-bottom: 1rem;
+}
+/*# sourceMappingURL=style.css.map */
